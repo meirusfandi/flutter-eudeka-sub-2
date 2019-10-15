@@ -1,6 +1,3 @@
-# flutter-eudeka-sub-2
-Indonesia independent day news app
-
 # independent_day_news_app
 
 An Application for Independent Day News
