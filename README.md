@@ -14,3 +14,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Source images/assets and new from : https://travel.kompas.com/read/2019/08/17/180600127/17-makanan-khas-nusantara-yang-identik-dengan-17-agustus
