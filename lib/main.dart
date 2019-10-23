@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News App Independent Day'),
+        title: Text('Independent Day Media'),
         backgroundColor: Colors.red,
         textTheme: TextTheme(
           title: TextStyle(
@@ -65,6 +65,57 @@ class MyApp extends StatelessWidget {
                         ),
                       ],
                     ),
+                    Row(
+                      children: <Widget>[
+                        Icon(
+                          Icons.favorite,
+                          color: Colors.red,
+                        ),
+                        Text(
+                          '  10K Likes'
+                        )
+                      ],
+                    ),
+                    Row(
+                      children: <Widget>[
+                        Icon(
+                          Icons.comment,
+                          color: Colors.green,
+                        ),
+                        Text(
+                            '  5K Comments'
+                        )
+                      ],
+                    ),
+                    Row(
+                      children: <Widget>[
+                        Icon(
+                          Icons.share,
+                          color: Colors.blue,
+                        ),
+                        Text(
+                            '  5K Shared'
+                        )
+                      ],
+                    ),
+                    Divider(),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        Icon(
+                          Icons.favorite,
+                          size: 24.0,
+                        ),
+                        Icon(
+                          Icons.comment,
+                          size: 24.0,
+                        ),
+                        Icon(
+                          Icons.share,
+                          size: 24.0,
+                        )
+                      ],
+                    ),
                     Divider(),
                     Text(
                       'Jenis Lomba :',
@@ -74,6 +125,7 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
                         Card(
                           margin: const EdgeInsets.all(8.0),
@@ -86,7 +138,6 @@ class MyApp extends StatelessWidget {
                                     children: <Widget>[
                                       new Image.network(
                                         "https://thumbs.dreamstime.com/z/indonesia-independence-day-games-celebration-slack-race-kids-celebrating-august-sack-game-balap-karung-154650928.jpg",
-                                        width: 200.0,
                                         height: 200.0,
                                       ),
                                     ],
@@ -115,7 +166,6 @@ class MyApp extends StatelessWidget {
                                     children: <Widget>[
                                       new Image.network(
                                         "https://thumbs.dreamstime.com/z/indonesian-independence-celebration-contest-eating-crackers-competition-to-welcome-156188196.jpg",
-                                        width: 200.0,
                                         height: 200.0,
                                       ),
                                     ],
@@ -136,6 +186,7 @@ class MyApp extends StatelessWidget {
                       ],
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
                         Card(
                           margin: const EdgeInsets.all(8.0),
@@ -148,7 +199,6 @@ class MyApp extends StatelessWidget {
                                     children: <Widget>[
                                       new Image.network(
                                         "https://thumbs.dreamstime.com/z/indonesian-independence-celebration-contest-marbles-scoop-race-156188199.jpg",
-                                        width: 200.0,
                                         height: 200.0,
                                       ),
                                     ],
@@ -177,7 +227,6 @@ class MyApp extends StatelessWidget {
                                     children: <Widget>[
                                       new Image.network(
                                         "https://thumbs.dreamstime.com/z/indonesian-independence-celebration-contest-clog-competition-indonesia-156188352.jpg",
-                                        width: 200.0,
                                         height: 200.0,
                                       ),
                                     ],
@@ -198,6 +247,7 @@ class MyApp extends StatelessWidget {
                       ],
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
                         Card(
                           margin: const EdgeInsets.all(8.0),
@@ -210,7 +260,6 @@ class MyApp extends StatelessWidget {
                                     children: <Widget>[
                                       new Image.network(
                                         "https://thumbs.dreamstime.com/z/indonesian-independence-celebration-contest-tug-war-celebrating-indonesia-s-day-156188307.jpg",
-                                        width: 200.0,
                                         height: 200.0,
                                       ),
                                     ],
@@ -239,7 +288,6 @@ class MyApp extends StatelessWidget {
                                     children: <Widget>[
                                       new Image.network(
                                         "https://thumbs.dreamstime.com/z/indonesian-independence-celebration-contest-tug-war-celebrating-indonesia-s-day-156188307.jpg",
-                                        width: 200.0,
                                         height: 200.0,
                                       ),
                                     ],
