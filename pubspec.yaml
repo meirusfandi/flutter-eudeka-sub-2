@@ -40,26 +40,6 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  assets:
-    - images/ayam_paniki.jpg
-    - images/ayam_tuturaga.jpg
-    - images/background.jpg
-    - images/bandros.jpg
-    - images/carabikang.jpg
-    - images/celorot.jpg
-    - images/kerabu_betik.jpg
-    - images/ketan_sumpit.jpg
-    - images/klepon_merah_putih.jpg
-    - images/nasi_kendil.jpg
-    - images/nasi_jagung.jpg
-    - images/nasi_tutug_oncom.jpg
-    - images/rujak_natsepa.jpg
-    - images/telok_abang.jpg
-    - images/telok_pindang.jpg
-    - images/telok_ukan.jpg
-    - images/tumpeng_kuning.jpg
-    - images/tumpeng_merah_putih.jpg
-
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
